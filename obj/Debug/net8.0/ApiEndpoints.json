@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "bai2api.Controllers.Controller_DuAn",
+    "Method": "getListDuanFull",
+    "RelativePath": "api/Controller_DuAn/L\u1EA5y danh s\u00E1ch d\u1EF1 \u00E1n",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bai2api.Controllers.Controller_DuAn",
+    "Method": "SuaDuAn",
+    "RelativePath": "api/Controller_DuAn/S\u1EEDa d\u1EF1 \u00E1n",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "bai2api.Payload.Request.DuAn.Request_SuaDuAn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bai2api.Controllers.Controller_DuAn",
+    "Method": "ThemDuAn",
+    "RelativePath": "api/Controller_DuAn/Th\u00EAm d\u1EF1 \u00E1n",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "bai2api.Payload.Request.DuAn.Request_ThemDuAn",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "bai2api.Controllers.Controller_DuAn",
+    "Method": "XoaDuAn",
+    "RelativePath": "api/Controller_DuAn/X\u00F3a d\u1EF1 \u00E1n",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DuAnId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
